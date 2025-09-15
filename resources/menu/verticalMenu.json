@@ -1,0 +1,106 @@
+{
+    "menu": [
+        {
+            "menuHeader": "Matriculados"
+        },
+        {
+            "icon": "menu-icon tf-icons bx bx-user",
+            "url": "admin/users",
+            "name": "Matriculados",
+            "slug": "laravel-example-user-management"
+        },
+        {
+            "icon": "menu-icon tf-icons bx bx-money",
+            "url": "admin/cuotas",
+            "name": "Cuotas",
+            "slug": "laravel-example-user-management"
+        },
+        {
+            "icon": "menu-icon tf-icons bx bx-calendar-check",
+            "url": "admin/periodos",
+            "name": "Períodos",
+            "slug": "laravel-example-user-management"
+        },
+        {
+            "icon": "menu-icon tf-icons bx bx-file",
+            "url": "admin/archivos_generales",
+            "name": "Archivos Generales",
+            "slug": "laravel-example-user-management"
+        },
+        {
+            "menuHeader": "Inmobiliarias"
+        },
+        {
+            "icon": "menu-icon tf-icons bx bx-building",
+            "url": "admin/inmobiliarias",
+            "name": "Inmobiliarias",
+            "slug": "laravel-example-user-management"
+        },
+        {
+            "menuHeader": "Contacto"
+        },
+        {
+            "icon": "menu-icon tf-icons bx bx-food-menu",
+            "url": "admin/contacto",
+            "name": "Contacto",
+            "slug": "laravel-example-user-management"
+        },
+        {
+            "icon": "menu-icon tf-icons bx bx-food-menu",
+            "url": "admin/mensajes",
+            "name": "Mensajes",
+            "slug": "laravel-example-user-management"
+        },
+        {
+            "menuHeader": "Noticias"
+        },
+        {
+            "icon": "menu-icon tf-icons bx bx-news",
+            "url": "admin/noticias",
+            "name": "Noticias",
+            "slug": "laravel-example-user-management"
+        },
+        {
+            "menuHeader": "Inicio"
+        },
+        {
+            "icon": "menu-icon tf-icons bx bx-collection",
+            "url": "admin/sliders",
+            "name": "Slider",
+            "slug": "laravel-example-user-management"
+        },
+        {
+            "icon": "menu-icon tf-icons bx bx-question-mark",
+            "url": "admin/faqs",
+            "name": "Preguntas Frecuentes",
+            "slug": "laravel-example-user-management"
+        },
+        {
+            "icon": "menu-icon tf-icons bx bx-building",
+            "url": "admin/footer",
+            "name": "Pie de Página",
+            "slug": "laravel-example-user-management"
+        },
+        {
+            "icon": "menu-icon tf-icons bx bx-user-voice",
+            "url": "admin/autoridades",
+            "name": "Autoridades",
+            "slug": "laravel-example-user-management"
+        },
+        {
+            "menuHeader": "General"
+        },
+        {
+            "icon": "menu-icon tf-icons bx bx-food-menu",
+            "url": "admin/terminos_y_condiciones",
+            "name": "Terminos y Condiciones",
+            "slug": "laravel-example-user-management"
+        },
+        {
+            "icon": "menu-icon tf-icons bx bx-food-menu",
+            "url": "admin/politica_privacidad",
+            "name": "Políticas de Privacidad",
+            "slug": "laravel-example-user-management"
+        }
+    ]
+}
