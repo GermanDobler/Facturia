@@ -31,4 +31,9 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'facturas_api' => [
+        'url' => env('FACTURAS_API_URL', 'http://127.0.0.1:8001'),
+    ],
+
+
 ];

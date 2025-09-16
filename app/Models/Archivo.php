@@ -14,4 +14,9 @@ class Archivo extends Model
         'carpeta',
         'tamano',
     ];
+
+    public function facturaExtraccion()
+    {
+        return $this->hasOne(\App\Models\FacturaExtraccion::class, 'archivo_id');
+    }
 }

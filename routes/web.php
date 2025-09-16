@@ -60,6 +60,7 @@ use App\Http\Controllers\form_layouts\HorizontalForm;
 use App\Http\Controllers\InformacionUtilController;
 use App\Http\Controllers\InmobiliariaController;
 use App\Http\Controllers\LoginController;
+use App\Http\Controllers\LoteController;
 use App\Http\Controllers\MensajesController;
 use App\Http\Controllers\NoticiasController;
 use App\Http\Controllers\PagoController;
@@ -288,6 +289,17 @@ Route::prefix('/admin')
         Route::get('autoridades/{autoridad}/editar', [AutoridadController::class, 'edit'])->name('autoridades.edit');
         Route::put('autoridades/{autoridad}',        [AutoridadController::class, 'update'])->name('autoridades.update');
         Route::delete('autoridades/{autoridad}',     [AutoridadController::class, 'destroy'])->name('autoridades.destroy');
+
+        Route::get('/archivos/facturas', [LoteController::class, 'index'])->name('archivos.facturas.index');
+        Route::post('/archivos/facturas/lote', [LoteController::class, 'crearLote'])->name('archivos.facturas.crearLote');
+        Route::post('/archivos/facturas/subir', [LoteController::class, 'subir'])->name('archivos.facturas.subir');
+        Route::delete('/archivos/facturas/lote/{carpeta}', [LoteController::class, 'eliminarLote'])->name('archivos.facturas.eliminarLote');
+        Route::get('/archivos/facturas/descargar/{id}', [LoteController::class, 'descargar'])->name('archivos.facturas.descargar');
+        Route::delete('/archivos/facturas/{id}', [LoteController::class, 'eliminar'])->name('archivos.facturas.eliminar');
+
+        Route::post('/lotes/{lote}/procesar', [LoteController::class, 'procesar'])
+            ->name('lotes.procesar');
+        Route::get('/archivos/facturas/lote/{lote}/resultados', [LoteController::class, 'resultados'])->name('archivos.facturas.resultados');
     });
 
 Route::prefix('/mi-panel')
