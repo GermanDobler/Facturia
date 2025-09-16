@@ -46,7 +46,7 @@ IA FACTURAS — README
 ## Requisitos
 
 - **PHP** 8.0+ (recomendado 8.1+) y **Composer**
-- **Laravel** 9/10
+- **Laravel** 11
 - **MySQL/MariaDB**
 - **Python** 3.10+
   - `fastapi`, `uvicorn`, `pymupdf`, `gpt4all`

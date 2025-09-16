@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+pymupdf
+gpt4all
+pydantic
+
+
+
+python -m uvicorn facturia:app --host 127.0.0.1 --port 8001
